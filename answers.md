@@ -15,5 +15,7 @@
 	for (i = 0; i < highlightelements.length; i++) {
     highlightelements[i].style.color = 'red' }
 
-6. 
+6. Change the font family of the h1 to 'monospace': h1 = document.querySelector('h1')
+	h1.style.fontFamily = 'monospace'
 
+7. 
