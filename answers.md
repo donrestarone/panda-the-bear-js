@@ -24,3 +24,13 @@
     tag.style.backgroundColor = 'black'})
 
 
+    part 2
+
+1. Take the "time travel" skill off the page to satisfy your personal sense of justice
+	timeTravel = document.querySelectorAll('div.bar-filled h4')
+	for (i=0; i < timeTravel.length; i++){
+    timeTravel[2].remove();}
+
+2. 
+
+
