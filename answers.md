@@ -18,4 +18,9 @@
 6. Change the font family of the h1 to 'monospace': h1 = document.querySelector('h1')
 	h1.style.fontFamily = 'monospace'
 
-7. 
+7. Find a way to select the round icons in the sidebar and then change their colour.:
+	roundIcons = document.querySelectorAll('div.action-icon-container a')
+	roundIcon.forEach(function(tag){
+    tag.style.backgroundColor = 'black'})
+
+
